@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    position: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    overflow: auto;
+    height: 100%;
+    border: 1px solid steelblue;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: grey;
+    max-width: 300px;
+  }
+
+.horizontal-buttons {
+    justify-content: space-between; 
+    margin-top: 15px;
+    display: inline-flex; 
+    align-items: center;
+    width: 100%
+}
+
+.screen {
+    background-color: azure;
+    border-radius: 2px;
+    display: inline-flex;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    justify-content: right;
+}
+
+

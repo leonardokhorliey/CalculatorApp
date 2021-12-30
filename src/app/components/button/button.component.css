@@ -1,0 +1,25 @@
+.btn {
+    display: inline-block;
+    background: radial-gradient(#000);
+    color: #000;
+    border: none;
+    align-items: center;
+    padding: 15px 0px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: solid;
+    font-size: 15px;
+    font-family: inherit;
+    box-shadow: 1px 1px 1px 1px rgb(39, 51, 51);
+    width: 60px;
+    
+  }
+
+
+.btn-hover {
+    background: rgb(0, 255, 255);
+    color: #000;
+
+}
+
